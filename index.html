@@ -4,44 +4,337 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/fa2a34c5d5.js" crossorigin="anonymous"></script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
+
+
     <meta name="descripton" content="Prestação de serviço de qualidade na área de Engenharia no setor público e privado.">
     <meta name="keywords" content="Luz Engenharia, empresa de engenharia, luz engenharia, Rodolfo Gonçalves Pereira, Gustavo Bezerra Quixabeira, Plinio Vinicius Quixabeira Luz, LUZ ENGENHARIA, luz engenharia, Luz Engenharia, Empresa de Engenharia, Serviço de Engenharia, Consultoria Engenharia"> 
     <meta name="robots" content="index,follow">
     <meta property="og:site_name" content="Luz Engenharia">
     <meta property="og:image" content="https://www.luzeng.com.br/img/imagem-luzeng-metatag.png">
-    
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link href="https://fonts.googleapis.com/css?family=Mada:200,300,400,500,600,700,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fa2a34c5d5.js" crossorigin="anonymous"></script>
     <title>Luz Engenharia</title>
+    <style>
+
+        
+    </style>
 </head>
 <body>
     <header>
-        <a id="email" href="https://accounts.zoho.com/signin?servicename=VirtualOffice&portal_id=709245716&hide_signup=true&hide_title=true&hide_fs=true&serviceurl=https%3A%2F%2Fmail.zoho.com%2Fbiz%2Findex.do%3FRequested_Domain%3Dluzeng.com.br">webmail</a>
+        <div class="container cabecalho">
+            <a class="email" href="#">
+                
+            </a>
+            <div class="social-medias">
+                <a href="https://web.whatsapp.com/send?phone=+5564981292835&text=Ola%20Luz%20Engenharia"><i class="fab fa-whatsapp"></i> <h3> (64)9 98129-2835</h3></a>
+                <a href="#"><i class="fab fa-facebook-f"></i> <h3> LUZ.ENG</h3> </a>
+                <a href="https://www.instagram.com/luz.eng/"><i class="fab fa-instagram"></i> <h3> LUZ.ENG</h3></a>
+                <a class="email" href="mailto:contato@luzeng.com.br"><i class="far fa-envelope"></i><h3>contato@luzeng.com.br</h3></a>
+
+            </div>
+
+        </div>
     </header>
-    <main>
-        <section class="principal todas">
-            <img src="img/logo.png" alt="" width="200px">
-            <div class="identifies rodolfo">
-                <h3>Rodolfo Gonçalves Pereira</h3> 
-                <a href="tel:+5564981292835" class="telefone">(64) 9 8129-2835</a>
-            </div>
-            <div class="identifies plinio">
-                <h3>Plínio Vinicius</h3> 
-                <a href="+5562985560350" class="telefone">(62) 9 8556-0350</a>
-            </div>
-            <div class="identifies gustavo">
-                <h3>Gustavo Quixabeira</h3> 
-                <a href="+5562985742736" class="telefone">(62) 9 8574-2736</a>
+    
+    <main  id="home" >
+        <section class="barra-menu">
+            <div class="container menu-superior">
+                <a href="#" class="logo">
+                    <img id="logo" src="img/logo.png" height="130px" alt="">
+                </a>
+                <nav class="menu-principal">
+                    <a id="home-menu" href="#home">HOME</a>
+                    <a id="sobre-menu"  href="#sobre">SOBRE</a>
+                    <a id="projetos-menu"  href="#projetos">PROJETOS</a>
+                    <a id="servicos-menu"  href="#servicos">SERVIÇOS</a>
+                    <a id="contato-menu"  href="#contato">CONTATO</a>
+                </nav>
+                <div class="menu-mobile-botao">
+                    <input type="checkbox" id="check">
+                    <label for="check"></label>
+                    <span></span>
+                </div>
+                
             </div>
             
-                
         </section>
-
+        <div class="menu-mobile-lista">
+            <nav class="menu-principal-mobile">
+                    <a  onclick="fecharMenu()" href="#home">HOME</a>
+                    <a  onclick="fecharMenu()"   href="#sobre">SOBRE</a>
+                    <a  onclick="fecharMenu()"  href="#projetos">PROJETOS</a>
+                    <a   onclick="fecharMenu()"  href="#servicos">SERVIÇOS</a>
+                    <a  onclick="fecharMenu()"   href="#contato">CONTATO</a>
+            </nav>
+        </div>
+        
+        <section class="container apresentacao">
+            
+            <h1><span id="digitar">Somos a Luz Engenharia.</span></h1>
+            <p>
+                <span>Prestação de serviço de qualidade na área de Engenharia no setor público e privado.</span>
+            </p>
+            <a href="#contato" class="botao botao-amarelo">Fazer Orçamentos</a>
+            <a href="#projetos" class="botao botao-fantasma">Projetos</a>
+        </section>
     </main>
+    <div id="servicos" class="servicos">
+        <img class="seta" id="servicos-left" src="img/left-blue.svg" alt=""height=50px>
+        <div class="other">
+            <div class="identificador">
+                <h2>Nossos Serviços</h2>
+            <p>Através de nossos orçamentos, apresentamos um preço justo e um ótimo custo benefício para suas obras.</p>
+            </div>
+            
+            <ul class="lista-de-servicos">
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/013-blueprint.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>ENGENHARIA DE COMBATE A INCÊNDIO</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/006-engineer-2.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>EXECUÇÃO DE OBRAS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/025-monitor.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>PROJETOS ARQUITETÔNICOS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/005-graphic-design.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>REALIZAÇÃO DE ORÇAMENTOS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/017-building-1.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>PLANEJAMENTO DE OBRAS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/030-engineer.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>ASSESSORIAS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/001-house-1.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>PROJETOS COMPLEMENTARES</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/019-engineer-1.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>GERENCIAMENTOS DE OBRAS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/007-paint-roller.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>REFORMAS</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/002-blueprint-3.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>MODIFICAÇÕES</span></h3>
+                    </div>
+                </li>
+                <li>
+                    <div href="" class="link-servico">
+                        <div class="servico-bola">
+                            <img src="img/icons/svg/029-worker.svg" alt="" height="70px" width="70px">
+                        </div>
+                        <h3><span>CONSTRUÇÕES</span></h3>
+                    </div>
+                </li>
+            </ul>
+            <div class="deslize"><i class="fas fa-arrow-left"> </i> <p>role para o lado </p> <i class="fas fa-arrow-right"></i></div>
+        </div>
+        <img class="seta" id="servicos-right" src="img/right-blue.svg" alt=""height=50px>
+    </div>
+    <div  id="sobre" class="sobre">
+        <div  class="imagem-superior"></div>
+        <div class="container mvv">
+            <div class="identificador sobre-titulo">
+                <h2>Sobre nós</h2>
+            </div>
+            <div class="mvv-conteudo">
+                <h3 id="titulo-sobre">MISSÃO</h3>
+                <p id="texto-sobre">Nossa missão é satisfazer, com qualidade, as necessidades dos clientes, entregando obras dentro do prazo, utilizando as tecnologias mais recentes do mercado, e as melhores práticas na elaboração de projetos, orçamentos, planejamento e gerenciamento de obras.</p>
+            </div>
+            <div class="sobre-circulo">
+                <img id="iconeSobre" src="img/mission.svg" alt="" width="100px height="100px">
+            </div>
+            <div class="sobre-ancoras">
+                <ul>
+                    <li><a class="normal-ancora" id="amissao" >Missão &#9642;</a></li>
+                    <li><a class="normal-ancora" id="avalores">Valores &#9642;</a></li>
+                    <li><a class="normal-ancora" id="avisao" >Visão &#9642;</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div  id="projetos" class="projetos-geral">
+        <img class="seta" id="projeto-left" src="img/left-blue.svg" alt=""height=50px>
+        <div class="container galeria-de-projetos">
+            <div class="identificador projetos">
+                <h2>Projetos</h2>
+                <p>Nossos profissionais são qualificados, e realizam todos os trabalhos, utilizando e observando as normas e posturas vigentes.</p>
+            </div>
+            <a href="#" id="linkProjeto1" class="projeto projeto1">
+                <div id="fotoProjeto1" class="foto-projeto foto">
+
+                </div>
+                <p id="apresentacaoProjeto1">Lorem Ipsum é simplesmente um texto fictício da indústria tipográ Lorem Ipsum é simplesmente um texto fictício da indústria tipográ</p>
+                <hr>
+            </a>
+            <a href="#" id="linkProjeto2"  class="projeto projeto2">
+                <div id="fotoProjeto2" class="foto-projeto foto">
+
+                </div>
+                <p id="apresentacaoProjeto2" >Lorem Ipsum é simplesmente um texto fictício da indústria tipográ Lorem Ipsum é simplesmente um texto fictício da indústria tipográ</p>
+                <hr>
+            </a>
+            <a href="#"  id="linkProjeto3"  class="projeto projeto3">
+                <div id="fotoProjeto3" class="foto-projeto foto">
+
+                </div>
+                <p id="apresentacaoProjeto3" >Lorem Ipsum é simplesmente um texto fictício da indústria tipográ Lorem Ipsum é simplesmente um texto fictício da indústria tipográ</p>
+                <hr>
+            </a>
+        </div>
+        <a class="botao mais-projetos" href="/todos-os-projetos/">MAIS PROJETOS</a>
+        <img class="seta" id="projeto-right" src="img/right-blue.svg" alt=""height=50px>
+        
+    </div>
+    <!--
+    <div  id="feedbacks" class="feedbacks">
+        <div class="container">
+            <div class="identificador feedback-identificador">
+                <h2>Feedback's</h2>
+            </div>
+            <div  class="aspas">
+                <img src="img/aspas.svg" alt="" width="150px">
+            </div>
+            <div class="feedback">
+                <img class="seta" id="feedback-left" src="img/left.svg" alt=""height=50px>
+                <div class="dados-feedback">
+                    <h2 class="prim-nome">PEDRO</h2>
+                    <h3 class="sobrenome">GONÇALVES PEREIRA</h3>
+                    <p id="textoFeedback">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College</p>
+                </div>
+                <div class="foto-pessoa-feedback"></div>
+                <img class="seta" id="feedback-right" src="img/right.svg" alt=""height=50px>
+            </div>
+                
+        </div>
+    </div> -->
+    <div  id="equipe" class="equipe">
+        <div class="container equipe-socios">
+            <div class="identificador identificador-socio">
+                <h2>Equipe</h2>
+                <p>Nosso foco é prestar serviços com qualidade na área de engenharia, tanto para o setor público como o privado. A ideia nasceu de um sonho dos sócios proprietários e se tornou realidade.</p>
+
+            </div>
+            <div class="socio socio1">
+                <div class="foto-equipe foto-socio1"></div>
+                <div class="informacoes-socio">
+                    <h2 class="prim-nome">RODOLFO</h2>
+                    <h3 class="prim-nome">GONÇALVES PEREIRA</h3>
+                    <p>Sócio e Engenheiro Civil CREA: 1018966480D&#45;GO  </p>
+                </div>
+            </div>
+            <div class="socio socio2">
+                <div class="foto-equipe foto-socio2"></div>
+                <div class="informacoes-socio">
+                    <h2 class="prim-nome">GUSTAVO</h2>
+                    <h3 class="prim-nome">BEZERRA QUIXABEIRA</h3>
+                    <p>Sócio e Bacharelando em Engenharia Civil.</p>
+                </div>
+            </div>
+            <div class="socio socio3">
+                <div class="foto-equipe foto-socio3"></div>
+                <div class="informacoes-socio">
+                    <h2 class="prim-nome">PLÍNIO VINÍCIUS</h2>
+                    <h3 class="prim-nome">QUIXABEIRA LUZ</h3>
+                    <p>Sócio da Luz Engenharia.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div  id="contato" class="contato">
+        <div class="container info-contato">
+            <div class="identificador identificador-socio">
+                <h2>Fale conosco</h2>
+                
+            </div>
+            <div class="localizacao">
+                <h3>Rua do Esmalte • Qd. 39 Lt. 01/30 • Sala 807 • Edifício 3</h3>
+                <p>Condomínio De La Flor Eldorado • Pq. Oestre Industrial <br>CEP: 74.375-60 • Goiânia GO<br> </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.658988725161!2d-49.32954258472809!3d-16.69393955016924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef67e7b570139%3A0x66a410f6af089575!2sELDORADO%20PARQUE%20DE%20LA%20FLOR!5e0!3m2!1spt-BR!2sbr!4v1585277108257!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+            <div class="form-contato">
+                <h3>MANDE-NOS UMA MENSAGEM</h3>
+                <p>Responderemos o mais breve possível ;)</p>
+                <form action="">
+                    <input class="input-texto" type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+                    <input class="input-texto"  type="email" name="email" id="email" placeholder="seu@email.com">
+                    <input class="input-texto"  maxlength="15" type="tel" name="telefone" id="telefone" placeholder="(XX) 9 XXXX-XXXX">
+                    <textarea class="input-texto"  id="mensagem" placeholder="Digite sua mensagem"></textarea>
+                    <input  type="submit" value="ENVIAR">
+                </form>
+            </div>
+        </div>
+    </div>
     <footer>
-        <a id="email" href="mailto:contato@luzeng.com.br">contato@luzeng.com.br</a>
+        <a href="https://maychondouglas.com/" class="desenvolvido">
+            developed by Maychon Douglas
+        </a>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
 </body>
-<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="script/javascript.js"></script>
 </html>
