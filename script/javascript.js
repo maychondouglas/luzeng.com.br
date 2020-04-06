@@ -38,6 +38,7 @@
     }
 
     /*Efeito de digitação no titulo*/
+/*
     var textoEntrada = document.getElementById("digitar").innerHTML;
     
 
@@ -79,7 +80,7 @@
         }, 400)
         
     }
-
+*/
     /*Scroll Div Lista de Servicos*/
     var scrollServicos = document.querySelector(".lista-de-servicos");
 
