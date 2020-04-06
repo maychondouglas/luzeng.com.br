@@ -1044,10 +1044,9 @@ footer a:hover{
     .deslize p{
         margin: 0 1rem;
     }
-    .apresentacao h1{
-    font-size: 30px;
-    
-}
+    #digitar{
+        font-size: 50px;
+    }
 
 }
 @media(max-width: 700px){
