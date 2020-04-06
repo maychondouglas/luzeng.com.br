@@ -1047,6 +1047,9 @@ footer a:hover{
     #digitar{
         font-size: 50px;
     }
+    iframe{
+        width: 100%;
+    }
 
 }
 @media(max-width: 700px){
