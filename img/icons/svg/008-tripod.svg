@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 496 496"
+   style="enable-background:new 0 0 496 496;"
+   xml:space="preserve"
+   sodipodi:docname="008-tripod.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata53"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs51" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="760"
+   inkscape:window-height="480"
+   id="namedview49"
+   showgrid="false"
+   inkscape:zoom="0.47580645"
+   inkscape:cx="144.464"
+   inkscape:cy="238.78893"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g10" />
+<g
+   id="g10">
+	<rect
+   x="224"
+   y="448"
+   style="fill:#faba14;fill-opacity:1"
+   width="48"
+   height="16"
+   id="rect2" />
+	
+		<rect
+   x="132.05"
+   y="434.467"
+   transform="matrix(-0.3714 0.9285 -0.9285 -0.3714 615.4548 495.3309)"
+   style="fill:#faba14;fill-opacity:1"
+   width="16"
+   height="43.081"
+   id="rect4" />
+	
+		<rect
+   x="334.473"
+   y="447.951"
+   transform="matrix(-0.9286 0.3711 -0.3711 -0.9286 855.8071 747.2297)"
+   style="fill:#faba14;fill-opacity:1"
+   width="43.08"
+   height="16"
+   id="rect6" />
+	<path
+   style="fill:#faba14;fill-opacity:1"
+   d="M248,176c-30.872,0-56-25.128-56-56s25.128-56,56-56s56,25.128,56,56S278.872,176,248,176z"
+   id="path8" />
+</g>
+<g
+   id="g16">
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M248,160c22.056,0,40-17.944,40-40s-17.944-40-40-40s-40,17.944-40,40S225.944,160,248,160z M248,96   c13.232,0,24,10.768,24,24s-10.768,24-24,24s-24-10.768-24-24S234.768,96,248,96z"
+   id="path12" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M389.992,457.432L312,262.456V248h16c8.824,0,16-7.176,16-16v-9.472   c9.288-3.312,16-12.112,16-22.528s-6.712-19.216-16-22.528V104c0-8.824-7.176-16-16-16V24c0-13.232-10.768-24-24-24H192   c-13.232,0-24,10.768-24,24v64c-8.824,0-16,7.176-16,16v128c0,8.824,7.176,16,16,16h16v14.456l-78,194.992   c-1.328,3.352-2,6.856-2,10.424C104,483.384,116.616,496,132.128,496h6.008c11.584,0,22.152-7.28,26.28-18.112L216,342.48V472   c0,13.232,10.768,24,24,24h16c13.232,0,24-10.768,24-24V342.48l51.584,135.416C335.72,488.72,346.28,496,357.864,496h6.008   C379.384,496,392,483.384,392,467.872C392,464.304,391.328,460.8,389.992,457.432z M288,232h-48v-16h48V232z M336,208   c-4.416,0-8-3.584-8-8s3.584-8,8-8s8,3.584,8,8S340.416,208,336,208z M184,24c0-4.416,3.584-8,8-8h112c4.416,0,8,3.584,8,8v64h-8   c-2.928,0-5.64,0.848-8,2.224V32h-96v58.224c-2.36-1.376-5.072-2.224-8-2.224h-8V24z M192,104v16c0-18.976,9.512-35.752,24-45.888   V48h64v26.112c14.488,10.136,24,26.912,24,45.888v-16h24v73.472c-9.288,3.312-16,12.112-16,22.528s6.712,19.216,16,22.528V232h-24   v-16c0-8.824-7.176-16-16-16h-48c-8.824,0-16,7.176-16,16v16h-16v-40c0-8.824-7.176-16-16-16h-24v-72H192z M168,192h24v40h-24V192z    M296,248v16h-32v16h16v32h-64v-32h32v-16h-48v-16H296z M149.464,472.184c-1.784,4.672-6.336,7.816-11.328,7.816h-6.008   C125.44,480,120,474.56,120,467.872c0-1.536,0.296-3.064,0.864-4.504L194.616,279c1.688,0.608,3.488,1,5.384,1v32   c0,4.936,2.296,9.304,5.824,12.24L149.464,472.184z M256,480h-16c-4.416,0-8-3.584-8-8V328h32v144C264,476.416,260.416,480,256,480   z M363.872,480h-6.008c-4.992,0-9.544-3.144-11.328-7.816l-56.36-147.944c3.528-2.936,5.824-7.304,5.824-12.24v-32   c1.896,0,3.696-0.392,5.384-1l73.744,184.352c0.576,1.464,0.872,2.984,0.872,4.52C376,474.56,370.56,480,363.872,480z"
+   id="path14" />
+</g>
+<g
+   id="g18">
+</g>
+<g
+   id="g20">
+</g>
+<g
+   id="g22">
+</g>
+<g
+   id="g24">
+</g>
+<g
+   id="g26">
+</g>
+<g
+   id="g28">
+</g>
+<g
+   id="g30">
+</g>
+<g
+   id="g32">
+</g>
+<g
+   id="g34">
+</g>
+<g
+   id="g36">
+</g>
+<g
+   id="g38">
+</g>
+<g
+   id="g40">
+</g>
+<g
+   id="g42">
+</g>
+<g
+   id="g44">
+</g>
+<g
+   id="g46">
+</g>
+</svg>

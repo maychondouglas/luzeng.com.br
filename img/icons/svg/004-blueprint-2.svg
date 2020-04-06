@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 496 496"
+   style="enable-background:new 0 0 496 496;"
+   xml:space="preserve"
+   sodipodi:docname="004-blueprint-2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata55"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs53" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="760"
+   inkscape:window-height="480"
+   id="namedview51"
+   showgrid="false"
+   inkscape:zoom="0.47580645"
+   inkscape:cx="248"
+   inkscape:cy="248"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Capa_1" />
+<path
+   style="fill:#faba14;fill-opacity:1"
+   d="M304,336v-80h-38.152c-2.504-8.16-5.768-16.04-9.736-23.544l26.96-26.96l-56.568-56.568l-26.96,26.96  c-7.504-3.968-15.392-7.224-23.544-9.736V128h-37.496L136,208.192V216c44.184,0,80,35.816,80,80s-35.816,80-80,80v48  c0,11.024-2.792,21.4-7.704,30.456L128,464h48v-38.152c8.16-2.504,16.04-5.768,23.544-9.736l26.96,26.96l56.568-56.568l-26.96-26.96  c3.968-7.504,7.224-15.392,9.736-23.544H304z"
+   id="path2" />
+<g
+   id="g18"
+   style="fill:#001242;fill-opacity:1">
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M464,96v-9.536l-29.6-74.008C431.368,4.888,424.144,0,416,0s-15.368,4.888-18.4,12.456L368,86.464   V96H143.528c-4-35.944-34.536-64-71.528-64C32.304,32,0,64.296,0,104v320c0,39.704,32.304,72,72,72h424V96H464z M408,96v168h-24V96   H408z M384,280h64v32c0,4.416-3.592,8-8,8h-48c-4.408,0-8-3.584-8-8V280z M448,264h-24V96h24V264z M412.456,18.4   c1.176-2.904,5.928-2.896,7.088,0l24.64,61.6h-56.368L412.456,18.4z M156,330.656c-3.72,2.152-7.792,3.592-12,4.456v-78.296   c18.232,3.72,32,19.872,32,39.192c0,9.432-3.336,18.576-9.408,25.768l12.224,10.328C187.32,322.024,192,309.2,192,296   c0-28.152-20.904-51.456-48-55.36v-16.168C179.944,228.464,208,259,208,296s-28.056,67.536-64,71.528v-16.144   c7.04-1.016,13.848-3.32,20.008-6.888L156,330.656z M16,104c0-30.872,25.12-56,56-56s56,25.128,56,56v274.848   C114.792,362.496,94.608,352,72,352s-42.792,10.496-56,26.848V104z M16,424c0-30.872,25.12-56,56-56s56,25.128,56,56   s-25.12,56-56,56S16,454.872,16,424z M480,480H117.152C133.504,466.792,144,446.608,144,424v-40.408   c44.784-4.056,80-41.768,80-87.592s-35.216-83.536-80-87.592V112h224v200c0,13.232,10.768,24,24,24h48c13.232,0,24-10.768,24-24   V112h16V480z"
+   id="path4" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M304,464h160V352H304V464z M320,368h128v80H320V368z"
+   id="path6" />
+	<rect
+   x="368"
+   y="384"
+   style="fill:#001242;fill-opacity:1"
+   width="64"
+   height="16"
+   id="rect8" />
+	<rect
+   x="336"
+   y="384"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect10" />
+	<rect
+   x="336"
+   y="416"
+   style="fill:#001242;fill-opacity:1"
+   width="64"
+   height="16"
+   id="rect12" />
+	<rect
+   x="416"
+   y="416"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect14" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M72,384c-22.056,0-40,17.944-40,40s17.944,40,40,40v-16c-13.232,0-24-10.768-24-24s10.768-24,24-24   s24,10.768,24,24h16C112,401.944,94.056,384,72,384z"
+   id="path16" />
+</g>
+<g
+   id="g20">
+</g>
+<g
+   id="g22">
+</g>
+<g
+   id="g24">
+</g>
+<g
+   id="g26">
+</g>
+<g
+   id="g28">
+</g>
+<g
+   id="g30">
+</g>
+<g
+   id="g32">
+</g>
+<g
+   id="g34">
+</g>
+<g
+   id="g36">
+</g>
+<g
+   id="g38">
+</g>
+<g
+   id="g40">
+</g>
+<g
+   id="g42">
+</g>
+<g
+   id="g44">
+</g>
+<g
+   id="g46">
+</g>
+<g
+   id="g48">
+</g>
+</svg>

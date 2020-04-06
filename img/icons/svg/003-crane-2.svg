@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 496 496"
+   style="enable-background:new 0 0 496 496;"
+   xml:space="preserve"
+   sodipodi:docname="003-crane-2.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata53"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs51" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="760"
+   inkscape:window-height="480"
+   id="namedview49"
+   showgrid="false"
+   inkscape:zoom="0.47580645"
+   inkscape:cx="54.216676"
+   inkscape:cy="290.25028"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Capa_1" />
+<g
+   id="g8">
+	<rect
+   x="40"
+   y="280"
+   style="fill:#faba14;fill-opacity:1"
+   width="48"
+   height="16"
+   id="rect2" />
+	<rect
+   x="40"
+   y="312"
+   style="fill:#faba14;fill-opacity:1"
+   width="48"
+   height="16"
+   id="rect4" />
+	<path
+   style="fill:#faba14;fill-opacity:1"
+   d="M496,448H320V336h176V448z"
+   id="path6" />
+</g>
+<g
+   id="g16">
+	<polygon
+   style="fill:#001242;"
+   points="336,384 352,384 352,432 368,432 368,384 384,384 384,432 400,432 400,384 416,384 416,432    432,432 432,384 448,384 448,400 464,400 464,384 480,384 480,368 336,368  "
+   id="polygon10" />
+	<rect
+   x="448"
+   y="416"
+   style="fill:#001242;"
+   width="16"
+   height="16"
+   id="rect12" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M451.464,112.152C454.28,107.392,456,101.92,456,96c0-17.648-14.352-32-32-32   c-2.136,0-4.216,0.232-6.232,0.632l0.096-0.408l-200-48l-22.528-0.192L179.312,0h-21.736L32,83.72V96v8v64H0v96h32v232h64V160h32   v336h144V176h112v128h0.248c-9.8,7.296-16.248,18.872-16.248,32h16c0-13.232,10.768-24,24-24s24,10.768,24,24h16   c0-13.128-6.448-24.704-16.248-32H432V176h64v-19.312L451.464,112.152z M144,120l42.672,32L144,184V120z M159.992,192L200,162   l40.008,30H159.992z M240.008,208L200,238l-40.008-30H240.008z M144,216l42.672,32L144,280V216z M159.992,288L200,258l40.008,30   H159.992z M240.008,304L200,334l-40.008-30H240.008z M144,312l42.672,32L144,376V312z M200,354l40.008,30h-80.016L200,354z    M144,408l14.392,10.792l9.592-12.8L159.992,400H240l-40,30l-20.2-15.152l-9.592,12.8L186.672,440L144,472V408z M200,450l40.008,30   h-80.016L200,450z M213.328,440L256,408v64L213.328,440z M213.328,344L256,312v64L213.328,344z M213.328,248L256,216v64   L213.328,248z M213.328,152l12.8-9.6l-9.592-12.8L200,142.008L159.992,112H240l-10.864,8.152l9.592,12.8L256,120v64L213.328,152z    M312,124.688L299.312,112h25.376L312,124.688z M344,115.312L356.688,128h-25.376L344,115.312z M356.688,144L344,156.688   L331.312,144H356.688z M363.312,112h25.376L376,124.688L363.312,112z M272,96v-3.312l-19.584-19.584L361.168,96H272z M272,112   h4.688l16,16H272V112z M324.688,160h-25.376L312,147.312L324.688,160z M376,147.312L388.688,160h-25.376L376,147.312z    M403.2,120.12c5.608,4.84,12.824,7.88,20.8,7.88c5.92,0,11.392-1.72,16.152-4.536l4.536,4.536H424h-28.688L403.2,120.12z M440,96   c0,8.824-7.176,16-16,16s-16-7.176-16-16s7.176-16,16-16S440,87.176,440,96z M215.056,32L399.08,76.168   c-2.432,3.048-4.28,6.512-5.472,10.312l-143.96-30.312l-14.304-0.136L211.312,32H215.056z M252.688,96H136h-8h-9.056l53.336-80   h0.408L252.688,96z M48,92.28l97.56-65.04L99.72,96H96h-8H48V92.28z M48,112h32v88H48v-24v-8V112z M16,184h16v32h48v32H16V184z    M48,480V264h32v216H48z M96,144v-32h32v32H96z M272,144h20.688l-16,16H272V144z M416,296.808c-2.584-0.528-5.264-0.808-8-0.808   s-5.416,0.28-8,0.808V176h16V296.808z M411.312,160l-16-16h65.376l16,16H411.312z"
+   id="path14" />
+</g>
+<g
+   id="g18">
+</g>
+<g
+   id="g20">
+</g>
+<g
+   id="g22">
+</g>
+<g
+   id="g24">
+</g>
+<g
+   id="g26">
+</g>
+<g
+   id="g28">
+</g>
+<g
+   id="g30">
+</g>
+<g
+   id="g32">
+</g>
+<g
+   id="g34">
+</g>
+<g
+   id="g36">
+</g>
+<g
+   id="g38">
+</g>
+<g
+   id="g40">
+</g>
+<g
+   id="g42">
+</g>
+<g
+   id="g44">
+</g>
+<g
+   id="g46">
+</g>
+</svg>

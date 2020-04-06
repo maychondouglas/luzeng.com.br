@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Capa_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 497.216 497.216"
+   style="enable-background:new 0 0 497.216 497.216;"
+   xml:space="preserve"
+   sodipodi:docname="002-blueprint-3.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"><metadata
+   id="metadata67"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /></cc:Work></rdf:RDF></metadata><defs
+   id="defs65" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="760"
+   inkscape:window-height="480"
+   id="namedview63"
+   showgrid="false"
+   inkscape:zoom="0.47464281"
+   inkscape:cx="248.608"
+   inkscape:cy="248.608"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g30" />
+<path
+   style="fill:#faba14;fill-opacity:1"
+   d="M312.608,321.216v-48h-27.32c-1.856-6.576-4.496-12.888-7.848-18.888l19.336-19.336l-33.936-33.936  l-19.336,19.336c-6-3.36-12.312-5.992-18.888-7.848v-27.328h-48v27.32c-6.576,1.856-12.888,4.496-18.888,7.848l-19.336-19.336  l-33.936,33.936l19.336,19.336c-3.36,6-5.992,12.312-7.848,18.888H88.608v48h27.32c1.856,6.576,4.496,12.888,7.848,18.888  l-19.336,19.336l33.936,33.936l19.336-19.336c6,3.36,12.312,5.992,18.888,7.848v27.336h48v-27.32  c6.576-1.856,12.888-4.496,18.888-7.848l19.336,19.336l33.936-33.936l-19.336-19.336c3.36-6,5.992-12.312,7.848-18.888h27.336  V321.216z M200.608,329.216c-17.672,0-32-14.328-32-32s14.328-32,32-32s32,14.328,32,32S218.28,329.216,200.608,329.216z"
+   id="path2" />
+<g
+   id="g30"
+   style="fill:#001242;fill-opacity:1">
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M409.736,1.296L400.608,0v90.24l-33.616,4.608L351.384,1.216h-29.64L306.056,103.2l-17.448,2.392   v6.976c0,0.216,0.048,0.432,0.056,0.648H64.608v-48h-32c-17.648,0-32,14.352-32,32v352c0,17.648,14.352,32,32,32h320.888   c10.104,9.88,23.904,16,39.112,16c30.872,0,56-25.128,56-56V213.512c0-20.72,7.744-40.176,21.24-53.376   c17.256-16.864,26.76-39.496,26.76-63.736C496.608,56.56,469.424,9.8,409.736,1.296z M335.472,17.216h2.36l13.296,79.808   l-28.544,3.912L335.472,17.216z M16.608,449.216c0-8.824,7.176-16,16-16h32v-32.008h-16v16.008h-16c-5.856,0-11.272,1.696-16,4.448   V97.216c0-8.824,7.176-16,16-16h16v304h16v-256H291.8c4.792,13.368,14.84,26.624,28.704,36.952   c10.08,7.52,16.104,19.48,16.104,32.008v243.04c0,8.592,2.008,16.712,5.48,24H32.608C23.784,465.216,16.608,458.04,16.608,449.216z    M458.664,148.704c-16.552,16.184-26.056,39.808-26.056,64.808v227.704c0,22.056-17.944,40-40,40s-40-17.944-40-40v-243.04   c0-17.56-8.432-34.32-22.544-44.832c-12.864-9.584-21.944-22.28-24.632-33.904l111.176-15.248V18.848   c43.896,10.304,64,46.48,64,77.552C480.608,116.296,472.808,134.864,458.664,148.704z"
+   id="path4" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M392.608,233.216c-13.232,0-24,10.768-24,24v80h16v-80c0-4.416,3.584-8,8-8s8,3.584,8,8v120   c0,4.416-3.584,8-8,8s-8-3.584-8-8v-24h-16v24c0,13.232,10.768,24,24,24s24-10.768,24-24v-120   C416.608,243.984,405.84,233.216,392.608,233.216z"
+   id="path6" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M392.608,417.216c-13.232,0-24,10.768-24,24s10.768,24,24,24s24-10.768,24-24   S405.84,417.216,392.608,417.216z M392.608,449.216c-4.416,0-8-3.584-8-8s3.584-8,8-8s8,3.584,8,8S397.024,449.216,392.608,449.216   z"
+   id="path8" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M360.608,185.216h64v-48h-64V185.216z M376.608,153.216h32v16h-32V153.216z"
+   id="path10" />
+	<path
+   style="fill:#001242;fill-opacity:1"
+   d="M200.608,257.216c-22.056,0-40,17.944-40,40s17.944,40,40,40s40-17.944,40-40   S222.664,257.216,200.608,257.216z M200.608,321.216c-13.232,0-24-10.768-24-24s10.768-24,24-24s24,10.768,24,24   S213.84,321.216,200.608,321.216z"
+   id="path12" />
+	<rect
+   x="192.608"
+   y="153.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect14" />
+	<rect
+   x="160.608"
+   y="153.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect16" />
+	<rect
+   x="128.608"
+   y="153.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect18" />
+	<rect
+   x="96.608"
+   y="153.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect20" />
+	<rect
+   x="288.608"
+   y="425.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect22" />
+	<rect
+   x="256.608"
+   y="425.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect24" />
+	<rect
+   x="224.608"
+   y="425.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect26" />
+	<rect
+   x="192.608"
+   y="425.216"
+   style="fill:#001242;fill-opacity:1"
+   width="16"
+   height="16"
+   id="rect28" />
+</g>
+<g
+   id="g32">
+</g>
+<g
+   id="g34">
+</g>
+<g
+   id="g36">
+</g>
+<g
+   id="g38">
+</g>
+<g
+   id="g40">
+</g>
+<g
+   id="g42">
+</g>
+<g
+   id="g44">
+</g>
+<g
+   id="g46">
+</g>
+<g
+   id="g48">
+</g>
+<g
+   id="g50">
+</g>
+<g
+   id="g52">
+</g>
+<g
+   id="g54">
+</g>
+<g
+   id="g56">
+</g>
+<g
+   id="g58">
+</g>
+<g
+   id="g60">
+</g>
+</svg>
