@@ -775,6 +775,15 @@ footer a:hover{
     height: 2rem;
     
 }
+.form-contato form button{
+    border: none;
+    margin-bottom: 0.5rem ;
+
+    background-color: var(--quase-branco);
+    
+    height: 2rem;
+    
+}
 .form-contato form input[name="nome"]{
     background-color: var(--quase-branco);
     width: 100%;
@@ -798,7 +807,7 @@ footer a:hover{
     border: none;
     
 }
-.form-contato form input[type="submit"]{
+.form-contato form button{
     background-color: var(--azul-escuro);
     width: 50%;
     height: 3rem;
@@ -808,7 +817,7 @@ footer a:hover{
     transition: linear 0.2s;
     font-weight: 400;
 }
-.form-contato form input[type="submit"]:hover{
+.form-contato form button:hover{
     background-color: var(--quase-branco);
     color: var(--azul-escuro);
 }
