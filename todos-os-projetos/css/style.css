@@ -16,7 +16,7 @@ body{
 
     
 }
-.cabecalho{
+.cabecalho{ 
     height: 3rem;
 }
 
@@ -635,8 +635,8 @@ footer a:hover{
         display: flex;
         
     }
-    .apresentacao{
-        margin-top: 20rem;
+        .apresentacao{
+        margin-top: 1rem;
     }
     .deslize{
         display: flex;
