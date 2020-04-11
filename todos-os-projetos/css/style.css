@@ -440,6 +440,9 @@ footer a{
 footer a:hover{
     font-weight: 300;
 }
+#identific{
+        display: none;
+}
 
 @media(max-width: 1140px){
         #identific{
