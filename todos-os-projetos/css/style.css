@@ -442,6 +442,16 @@ footer a:hover{
 }
 
 @media(max-width: 1140px){
+        #identific{
+        display: flex;
+
+        width: 90%;
+        margin: 2rem auto;
+        font-size: 25px;
+        color: rgba(6,6,6,0.5);
+        justify-content: flex-end;
+        border-bottom: solid rgba(6,6,6,0.2) 2px;
+    }
     .container{
         display: flex;
         flex-direction: column;
