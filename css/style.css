@@ -1136,5 +1136,15 @@ footer a:hover{
     width: 7rem;
     
     }
+        .sobre-circulo{
+    height: 10rem;
+    width: 10rem;
+    
+}
+    .sobre-circulo img{
+    height: 80px;
+    width: 80px;
+    
+}
 }
 
