@@ -1050,6 +1050,11 @@ footer a:hover{
     iframe{
         width: 100%;
     }
+    .servicos div ul li .link-servico .servico-bola{
+    height: 7rem;
+    width: 7rem;
+    
+    }
 
 }
 @media(max-width: 700px){
@@ -1114,6 +1119,11 @@ footer a:hover{
     .apresentacao{
         height: 25rem;
         justify-content: flex-end;
+    }
+    .servicos div ul li .link-servico .servico-bola{
+    height: 7rem;
+    width: 7rem;
+    
     }
 }
 
