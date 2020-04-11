@@ -13,6 +13,7 @@
 body{
     min-height: 100vh;
     scroll-behavior: smooth;
+
     
 }
 .cabecalho{
@@ -27,6 +28,20 @@ body{
     background-color: red;
     grid-column: 1/13;
     
+}
+a hr{
+    height:  5px;
+    background-color: rgba(6,6,6,0.2);
+    border: none;
+    margin-top: 0.5rem;
+
+}
+a h2{
+    margin: 0.5rem;
+}
+.nome-projeto{
+    color: var(--azul-escuro);
+
 }
 
 header{
@@ -224,10 +239,10 @@ header{
     margin-left: 0;
 }
 main{
-    background-image: url("../img/background-main.png");
-    height: 30rem;
+    background-image: url("../../img/background-main-projetos.png");
+    min-height: 30rem;
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
     background-attachment: fixed;
     overflow: hidden;
     position:relative;
@@ -300,7 +315,7 @@ a{
 }
 main::after{
     content:"";
-    background:rgba(0,0,0,.2);
+    background:rgba(0,0,0,.5);
     width:100%;
     
     height: 100%;
@@ -311,13 +326,90 @@ main::after{
 }
 
 .lista-de-projetos{
-    background-color: gray;
-    position: absolute;
+    height: auto;
+    width: 100%;
     display: flex;
-    min-height: 90rem;
-    width: 200%;
-    margin: 90rem auto;
-    z-index: 11;
+    background-color: var(--amarelo);
+    position: relative;
+    z-index: 9;
+    margin: 0 auto;
+    margin-top: 5rem;
+
+
+
+}
+.lista-de-projetos .lista{
+    background-color: var(--quase-branco);
+    min-height: 40rem;
+    margin-top: -5rem;
+    margin-bottom: 5rem;
+    width: 100%;
+
+background-image: url();
+   
+
+}
+.lista-de-projetos .lista #apresentacao-projeto{
+    grid-column: 1/10;
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+ 
+}
+.lista-de-projetos .lista #apresentacao-projeto .nome-projeto-apresentacao{
+    width: 90%;
+    font-size: 25px;
+    margin: 1rem auto;
+}
+.lista-de-projetos .lista #apresentacao-projeto .foto-projeto{
+    width: 90%;
+    height: 90%;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(6,6,6,0.2); ;
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+
+}
+.lista-de-projetos .lista ul{
+    list-style: none;
+    grid-column: 10/-1;
+    display: flex;
+    flex-direction: column;
+    
+    margin-right: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+
+}
+.lista-de-projetos .lista ul li{
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.seta{
+    position: relative;
+    background-color: var(--quase-branco);
+    display: flex;
+  
+    border: solid var(--quase-branco) 5px;
+    border-radius: 100px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.imagem-projeto{
+    
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    margin: 0 auto;
+    background-color: var(--azul-escuro);
+
 }
 
 
@@ -369,6 +461,17 @@ footer a:hover{
     .mais-projetos:hover{
         background-color: var(--azul-escuro);
         color: var(--quase-branco);
+    }
+    #ul-projetos{
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .projeto-da-lista{
+        width: 32%;
+        min-width: 15rem;
+        margin: 0.2rem;
     }
     .projeto{
         width: 90%;
@@ -551,6 +654,11 @@ footer a:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    .projeto-da-lista{
+        width: 100%;
+        min-width: 15rem;
+        margin: 0.2rem;
     }
     .foto-pessoa-feedback{
         order: 1;
