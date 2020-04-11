@@ -291,9 +291,9 @@ var imagemProjeto3 = document.querySelector("#fotoProjeto3").style;
 var linkProjeto3 = document.querySelector("#linkProjeto3");
 
 var arrayDeProjetos =   [
-                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p1imagem1", idProjeto:"projeto1"},{titulo:"Projeto Arquitetonico", nomeFoto:"p2imagem1", idProjeto:"projeto2"},{titulo:"Projeto Arquitetonico", nomeFoto:"p3imagem1", idProjeto:"projeto3"}],
-                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p4imagem1", idProjeto:"projeto4"},{titulo:"Projeto De Combate a Incêndio", nomeFoto:"p5imagem1", idProjeto:"projeto5"},{titulo:"Projeto Elétrico", nomeFoto:"p6imagem1", idProjeto:"projeto6"}],
-                        [{titulo:"Projeto Estrutural", nomeFoto:"p7imagem1", idProjeto:"projeto7"},{titulo:"Projeto Hidráulico", nomeFoto:"p8imagem1", idProjeto:"projeto8"},{titulo:"", nomeFoto:"", idProjeto:"projeto9"}]
+                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p1imagem1", idProjeto:"1"},{titulo:"Projeto Arquitetonico", nomeFoto:"p2imagem1", idProjeto:"2"},{titulo:"Projeto Arquitetonico", nomeFoto:"p3imagem1", idProjeto:"3"}],
+                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p4imagem1", idProjeto:"4"},{titulo:"Projeto De Combate a Incêndio", nomeFoto:"p5imagem1", idProjeto:"5"},{titulo:"Projeto Elétrico", nomeFoto:"p6imagem1", idProjeto:"6"}],
+                        [{titulo:"Projeto Estrutural", nomeFoto:"p7imagem1", idProjeto:"7"},{titulo:"Projeto Hidráulico", nomeFoto:"p8imagem1", idProjeto:"8"},{titulo:"", nomeFoto:"", idProjeto:"9"}]
                         ];
 
 var itListaProjetos = 0;
