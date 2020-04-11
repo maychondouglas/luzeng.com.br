@@ -1057,9 +1057,16 @@ footer a:hover{
     }
     .mvv-conteudo h3{
     font-size: 18px;
-
+}
+    .sobre-circulo{
+    height: 10rem;
+    width: 10rem;
     
-
+}
+    .sobre-circulo img{
+    height: 80px;
+    width: 80px;
+    
 }
 @media(max-width: 700px){
     .feedback{
