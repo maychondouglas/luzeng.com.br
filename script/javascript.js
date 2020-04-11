@@ -299,11 +299,14 @@ var arrayDeProjetos =   [
 var itListaProjetos = 0;
 
 textoProjeto1.innerHTML = arrayDeProjetos[0][0].titulo;
-imagemProjeto1.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
+imagemProjeto1.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
+linkProjeto1.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
 textoProjeto2.innerHTML = arrayDeProjetos[0][1].titulo;
-imagemProjeto2.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
+imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
+linkProjeto2.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
 textoProjeto3.innerHTML = arrayDeProjetos[0][2].titulo;
-imagemProjeto3.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
+imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
+linkProjeto3.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
 
 
 arrowLeftProject.addEventListener("click", function(){
@@ -311,11 +314,14 @@ arrowLeftProject.addEventListener("click", function(){
     if(itListaProjetos != 0){
         itListaProjetos--;
         textoProjeto1.innerHTML = arrayDeProjetos[itListaProjetos][0].titulo;
-        imagemProjeto1.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
+        imagemProjeto1.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
+        linkProjeto1.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
         textoProjeto2.innerHTML = arrayDeProjetos[itListaProjetos][1].titulo;
-        imagemProjeto2.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
+        imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
+        linkProjeto2.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
         textoProjeto3.innerHTML = arrayDeProjetos[itListaProjetos][2].titulo;
-        imagemProjeto3.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
+        imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
+        linkProjeto3.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
     }
 
 });
@@ -324,14 +330,14 @@ arrowRightProject.addEventListener("click", function(){
     if(itListaProjetos != arrayDeProjetos.length - 1){
         itListaProjetos++;
         textoProjeto1.innerHTML = arrayDeProjetos[itListaProjetos][0].titulo;
-        imagemProjeto1.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
-        linkProjeto1.setAttribute("href", "single-projeto?idproj=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
+        imagemProjeto1.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
+        linkProjeto1.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
         textoProjeto2.innerHTML = arrayDeProjetos[itListaProjetos][1].titulo;
-        imagemProjeto2.backgroundImage = (arrayDeProjetos[itListaProjetos][1].nomeFoto != "" )?"url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')":null; 
-        linkProjeto2.setAttribute("href", "single-projeto?idproj=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
+        imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
+        linkProjeto2.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
         textoProjeto3.innerHTML = arrayDeProjetos[itListaProjetos][2].titulo;
-        imagemProjeto3.backgroundImage = "url('todos-os-projetos/img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
-        linkProjeto3.setAttribute("href", "single-projeto?idproj=" +  arrayDeProjetos[itListaProjetos][02].idProjeto);
+        imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
+        linkProjeto3.setAttribute("href", "todos-os-projetos?id" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
     }
 
 });
