@@ -193,8 +193,8 @@ header{
     
 }
 .menu-mobile-botao span{
-    width: 60px;
-    height: 6px;
+    width: 50px;
+    height: 2px;
     top: 40px;
     left: 14px;
     position: absolute;
@@ -203,18 +203,18 @@ header{
 }
 .menu-mobile-botao span:before{
     content: '';
-    width: 60px;
-    height: 6px;
-    bottom: -20px;
+    width: 50px;
+    height: 2px;
+    bottom: -15px;
     position: absolute;
     background-color: white;
     transition: all .2s linear;
 }
 .menu-mobile-botao span:after{
     content: '';
-    width: 60px;
-    height: 6px;
-    top: -20px;
+    width: 50px;
+    height: 2px;
+    top: -15px;
     position: absolute;
     background-color: white;
     transition: all .2s linear;
