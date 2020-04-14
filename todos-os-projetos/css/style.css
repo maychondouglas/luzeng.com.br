@@ -704,6 +704,10 @@ footer a:hover{
     #texto-sobre{
         font-size: 23px;
     }
+    .social-medias a i {
+    font-size: 20px;
+    margin-left: 0.8rem;
+}
     .sobre-ancoras ul li a{
         font-size: 30px;
     }
