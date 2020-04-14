@@ -220,13 +220,13 @@ header{
     transition: all .2s linear;
 }
 
-#check:checked ~ span{
+#check:checked ~ label span{
     background-color: transparent;
 }
-#check:checked ~ span:before{
+#check:checked ~  label span:before{
     transform: translate(0px, -20px) rotate(-45deg);
 }
-#check:checked ~ span::after{
+#check:checked ~ label  span::after{
     transform: translate(0px, 20px) rotate(45deg);
 }
 #check:checked ~ label{
