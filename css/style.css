@@ -1062,14 +1062,19 @@ footer a:hover{
     height: 10rem;
     width: 10rem;
     
-}
+    }
     .sobre-circulo img{
     height: 80px;
     width: 80px;
     
-}
+    }
     .mvv-conteudo{
     padding-left: 0;
+    }
+    .social-medias a i {
+    font-size: 20px;
+    margin-left: 0.8rem;
+    }
 }
 @media(max-width: 700px){
     .feedback{
