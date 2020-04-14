@@ -192,7 +192,7 @@ header{
     display: none;
     
 }
-.menu-mobile-botao span{
+.menu-mobile-botao label span{
     width: 50px;
     height: 2px;
     top: 40px;
@@ -201,7 +201,7 @@ header{
     background-color: white;
     transition: all .2s linear;
 }
-.menu-mobile-botao span:before{
+.menu-mobile-botao label span:before{
     content: '';
     width: 50px;
     height: 2px;
@@ -210,7 +210,7 @@ header{
     background-color: white;
     transition: all .2s linear;
 }
-.menu-mobile-botao span:after{
+.menu-mobile-botao label span:after{
     content: '';
     width: 50px;
     height: 2px;
@@ -224,10 +224,10 @@ header{
     background-color: transparent;
 }
 #check:checked ~  label span:before{
-    transform: translate(0px, -20px) rotate(-45deg);
+    transform: translate(0px, -15px) rotate(-45deg);
 }
 #check:checked ~ label  span::after{
-    transform: translate(0px, 20px) rotate(45deg);
+    transform: translate(0px, 15px) rotate(45deg);
 }
 #check:checked ~ label{
     border-radius: 100px;
