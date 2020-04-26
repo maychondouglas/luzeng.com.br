@@ -102,7 +102,7 @@
 
     var arraySobre = [
     {id:0, tituloSobre:"MISSÃO", textoSobre:"Nossa missão é satisfazer, com qualidade, as necessidades dos clientes, entregando obras dentro do prazo, utilizando as tecnologias mais recentes do mercado, e as melhores práticas na elaboração de projetos, orçamentos, planejamento e gerenciamento de obras.", srcImagem:"img/mission.svg"},
-    {id:1, tituloSobre:"VALORES", textoSobre:"Lorem Ipsum é simplesmente um texto fictício da indústria tipográfica e de impressão. Lorem Ipsum é o texto fictício padrão do setor desdeLorem ctício padrão do setor desde2", srcImagem:"img/valores.svg"},
+    {id:1, tituloSobre:"ECONOMIA", textoSobre:"Através de nossos orçamentos, apresentamos um preço justo e um ótimo custo benefício para suas obras.", srcImagem:"img/economia.svg"},
     {id:2, tituloSobre:"VISÃO", textoSobre:"Ser a empresa líder e reconhecida na utilizaçãode novas tecnologias voltadas para a elaboração e execução de quaisquer tipos de projetos, orçamentos, planejamento e gerenciamento de obras.", srcImagem:"img/visao.svg"}
     ];
 
