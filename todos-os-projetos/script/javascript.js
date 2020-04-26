@@ -78,14 +78,14 @@ minhaCheckBox.checked = false;
 
 
 var arrayDeProjetos =  [
-                        {id:1, nome:"Projeto Arquitetônico", fotos:["p1imagem1", "p1imagem2", "p1imagem3","p1imagem4"]},
-                        {id:2, nome:"Projeto Arquitetônico", fotos:["p2imagem1", "p2imagem2", "p2imagem3"]},
-                        {id:3, nome:"Projeto Arquitetônico", fotos:["p3imagem1", "p3imagem2", "p3imagem3","p3imagem4","p3imagem5"]},
-                        {id:4, nome:"Projeto Arquitetônico", fotos:["p4imagem1", "p4imagem2", "p4imagem3","p4imagem4","p4imagem5","p4imagem6","p4imagem7"]},
-                        {id:5, nome:"Projeto De Combate a Incêndio", fotos:["p5imagem1", "p5imagem2"]},
-                        {id:6, nome:"Projeto Elétrico", fotos:["p6imagem1", "p6imagem2",]},
-                        {id:7, nome:"Projeto Estrutural", fotos:["p7imagem1", "p7imagem2"]},
-                        {id:8, nome:"Projeto Hidráulico", fotos:["p8imagem1", "p8imagem2"]}
+                        {id:1, nome:"Projeto de Combate a Incêndio", fotos:["p1imagem1", "p1imagem2", "p1imagem3"]},
+                        {id:2, nome:"Projeto Estrutural", fotos:["p2imagem1", "p2imagem2", "p2imagem3"]},
+                        {id:3, nome:"Projeto Arquitetônico", fotos:["p3imagem1", "p3imagem2", "p3imagem3","p3imagem4"]},
+                        {id:4, nome:"Projeto Elétrico", fotos:["p4imagem1", "p4imagem2", "p4imagem3"]},
+                        {id:5, nome:"Projeto Arquitetônico", fotos:["p5imagem1", "p5imagem2", "p5imagem3", "p5imagem4"]},
+                        {id:6, nome:"Projeto Hidráulico", fotos:["p6imagem1", "p6imagem2", "p6imagem3", "p6imagem4"]},
+                        {id:7, nome:"Projeto Arquitetônico", fotos:["p7imagem1", "p7imagem2", "p7imagem3", "p7imagem4", "p7imagem5", "p7imagem6", "p7imagem7"]},
+                        {id:8, nome:"Projeto Arquitetônico", fotos:["p8imagem1", "p8imagem2", "p8imagem3"]}
                        ];
 
 var listaDeProjetos = document.querySelector("#ul-projetos");
