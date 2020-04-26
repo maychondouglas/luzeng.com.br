@@ -283,17 +283,26 @@ var arrowRightProject = document.querySelector("#projeto-right");
 var textoProjeto1 = document.querySelector("#apresentacaoProjeto1");
 var imagemProjeto1 = document.querySelector("#fotoProjeto1").style;
 var linkProjeto1 = document.querySelector("#linkProjeto1");
+var hrproj1 = document.getElementById("hr1");
 var textoProjeto2 = document.querySelector("#apresentacaoProjeto2");
 var imagemProjeto2 = document.querySelector("#fotoProjeto2").style;
 var linkProjeto2 = document.querySelector("#linkProjeto2");
+var hrproj2 = document.getElementById("hr2");
 var textoProjeto3 = document.querySelector("#apresentacaoProjeto3");
 var imagemProjeto3 = document.querySelector("#fotoProjeto3").style;
 var linkProjeto3 = document.querySelector("#linkProjeto3");
+var hrproj3 = document.getElementById("hr3");
 
 var arrayDeProjetos =   [
-                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p1imagem1", idProjeto:"1"},{titulo:"Projeto Arquitetonico", nomeFoto:"p2imagem1", idProjeto:"2"},{titulo:"Projeto Arquitetonico", nomeFoto:"p3imagem1", idProjeto:"3"}],
-                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p4imagem1", idProjeto:"4"},{titulo:"Projeto De Combate a Incêndio", nomeFoto:"p5imagem1", idProjeto:"5"},{titulo:"Projeto Elétrico", nomeFoto:"p6imagem1", idProjeto:"6"}],
-                        [{titulo:"Projeto Estrutural", nomeFoto:"p7imagem1", idProjeto:"7"},{titulo:"Projeto Hidráulico", nomeFoto:"p8imagem1", idProjeto:"8"},{titulo:"", nomeFoto:"", idProjeto:"9"}]
+                        [{titulo:"Projeto de Combate a Incêndio", nomeFoto:"p1imagem1", idProjeto:"1"},
+                        {titulo:"Projeto Estrutural", nomeFoto:"p2imagem1", idProjeto:"2"},
+                        {titulo:"Projeto Arquitetonico", nomeFoto:"p3imagem1", idProjeto:"3"}],
+                        [{titulo:"Projeto Elétrico", nomeFoto:"p4imagem1", idProjeto:"4"},
+                        {titulo:"Projeto Arquitetônico", nomeFoto:"p5imagem1", idProjeto:"5"},
+                        {titulo:"Projeto Hidráulico", nomeFoto:"p6imagem1", idProjeto:"6"}],
+                        [{titulo:"Projeto Arquitetonico", nomeFoto:"p7imagem1", idProjeto:"7"},
+                        {titulo:"Projeto Arquitetonico", nomeFoto:"p8imagem1", idProjeto:"8"},
+                        {titulo:"", nomeFoto:"", idProjeto:"9"}]
                         ];
 
 var itListaProjetos = 0;
@@ -301,12 +310,17 @@ var itListaProjetos = 0;
 textoProjeto1.innerHTML = arrayDeProjetos[0][0].titulo;
 imagemProjeto1.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
 linkProjeto1.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
+if(arrayDeProjetos[itListaProjetos][0].titulo == ""){
+
+}
 textoProjeto2.innerHTML = arrayDeProjetos[0][1].titulo;
 imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
 linkProjeto2.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
 textoProjeto3.innerHTML = arrayDeProjetos[0][2].titulo;
 imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
 linkProjeto3.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
+
+
 
 
 arrowLeftProject.addEventListener("click", function(){
@@ -316,12 +330,21 @@ arrowLeftProject.addEventListener("click", function(){
         textoProjeto1.innerHTML = arrayDeProjetos[itListaProjetos][0].titulo;
         imagemProjeto1.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
         linkProjeto1.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
+        if(arrayDeProjetos[itListaProjetos][0].titulo == ""){
+            hrproj1.style.visibility = "hidden";
+        }
         textoProjeto2.innerHTML = arrayDeProjetos[itListaProjetos][1].titulo;
         imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
         linkProjeto2.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
+        if(arrayDeProjetos[itListaProjetos][1].titulo == ""){
+            hrproj2.style.visibility = "hidden";
+        }
         textoProjeto3.innerHTML = arrayDeProjetos[itListaProjetos][2].titulo;
         imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
         linkProjeto3.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
+        if(arrayDeProjetos[itListaProjetos][2].titulo == ""){
+            hrproj3.style.visibility = "hidden";
+        }
     }
 
 });
@@ -332,16 +355,24 @@ arrowRightProject.addEventListener("click", function(){
         textoProjeto1.innerHTML = arrayDeProjetos[itListaProjetos][0].titulo;
         imagemProjeto1.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][0].nomeFoto + ".jpg')";
         linkProjeto1.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
+        if(arrayDeProjetos[itListaProjetos][0].titulo == ""){
+            hrproj1.style.visibility = "hidden";
+        }
         textoProjeto2.innerHTML = arrayDeProjetos[itListaProjetos][1].titulo;
         imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
         linkProjeto2.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
+        if(arrayDeProjetos[itListaProjetos][1].titulo == ""){
+            hrproj2.style.visibility = "hidden";
+        }
         textoProjeto3.innerHTML = arrayDeProjetos[itListaProjetos][2].titulo;
         imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
-        linkProjeto3.setAttribute("href", "todos-os-projetos?id" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
+        linkProjeto3.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
+        if(arrayDeProjetos[itListaProjetos][2].titulo == ""){
+            hrproj3.style.visibility = "hidden";
+        }
     }
 
 });
-
 
 
 
