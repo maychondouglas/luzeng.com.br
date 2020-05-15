@@ -332,18 +332,24 @@ arrowLeftProject.addEventListener("click", function(){
         linkProjeto1.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
         if(arrayDeProjetos[itListaProjetos][0].titulo == ""){
             hrproj1.style.visibility = "hidden";
+        }else{
+            hrproj1.style.visibility = "visible";
         }
         textoProjeto2.innerHTML = arrayDeProjetos[itListaProjetos][1].titulo;
         imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
         linkProjeto2.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
         if(arrayDeProjetos[itListaProjetos][1].titulo == ""){
             hrproj2.style.visibility = "hidden";
+        }else{
+            hrproj2.style.visibility = "visible";
         }
         textoProjeto3.innerHTML = arrayDeProjetos[itListaProjetos][2].titulo;
         imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
         linkProjeto3.setAttribute("href", "todos-os-projetos/?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
         if(arrayDeProjetos[itListaProjetos][2].titulo == ""){
             hrproj3.style.visibility = "hidden";
+        }else{
+            hrproj3.style.visibility = "visible";
         }
     }
 
@@ -357,18 +363,24 @@ arrowRightProject.addEventListener("click", function(){
         linkProjeto1.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][0].idProjeto);
         if(arrayDeProjetos[itListaProjetos][0].titulo == ""){
             hrproj1.style.visibility = "hidden";
+        }else{
+            hrproj1.style.visibility = "visible";
         }
         textoProjeto2.innerHTML = arrayDeProjetos[itListaProjetos][1].titulo;
         imagemProjeto2.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][1].nomeFoto + ".jpg')"; 
         linkProjeto2.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][1].idProjeto);
         if(arrayDeProjetos[itListaProjetos][1].titulo == ""){
             hrproj2.style.visibility = "hidden";
+        }else{
+            hrproj2.style.visibility = "visible";
         }
         textoProjeto3.innerHTML = arrayDeProjetos[itListaProjetos][2].titulo;
         imagemProjeto3.backgroundImage = "url('img/" + arrayDeProjetos[itListaProjetos][2].nomeFoto + ".jpg')";
         linkProjeto3.setAttribute("href", "todos-os-projetos?id=" +  arrayDeProjetos[itListaProjetos][2].idProjeto);
         if(arrayDeProjetos[itListaProjetos][2].titulo == ""){
             hrproj3.style.visibility = "hidden";
+        }else{
+            hrproj3.style.visibility = "visible";
         }
     }
 
