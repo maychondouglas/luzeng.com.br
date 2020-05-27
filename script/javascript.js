@@ -1,7 +1,16 @@
 
+    const body_loading = document.querySelector('.body-loading');
+    const loading = document.querySelector('.body-loading');
+    const body = document.querySelector('body');
     
-    /*
-    window.onscroll = function() {myFunction()};
+    loading.style.display = 'flex';
+
+
+
+    setTimeout(function(){
+        loading.style.display = 'none';
+    }, 1500);
+
 
     function myFunction(){
        
@@ -15,8 +24,7 @@
             document.querySelector("header").style.backgroundColor = "var(--azul-escuro)";
         }
     }
-*/
-    window.onscroll = function() {myFunction()};
+
 
     function myFunction(){
        
