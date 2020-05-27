@@ -9,7 +9,7 @@
 
     setTimeout(function(){
         loading.style.display = 'none';
-    }, 2000);
+    }, 1500);
 
 
     function myFunction(){
